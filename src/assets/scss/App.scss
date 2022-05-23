@@ -1,0 +1,118 @@
+@import "variables";
+
+// [DEPRECATED]
+// @import "~bootstrap/scss/bootstrap";
+
+// @import "reboot";
+// @import "loader";
+// @import "alert";
+@import "scrollbar";
+@import "~antd/dist/antd";
+@import "antd_customize";
+@import "bootstrap-utilities";
+
+.ant-layout-header {
+  height: 32px;
+  line-height: 32px;
+}
+
+// Customize
+// .ant-table {
+  // font-size: 13px;
+// }
+
+.ant-table-tbody .ant-empty {
+  margin: 0;
+}
+
+.ant-table-cell > .ant-row.ant-form-item {
+  margin-bottom: 0;
+}
+.ant-table-pagination.ant-pagination {
+  margin: 5px 0;
+}
+
+.ant-input {
+  padding: 0 7px;
+}
+.ant-input-number {
+  padding: 0;
+  width: 100%;
+}
+.ant-input-number input {
+  height: 22px;
+  padding: 0 7px;
+}
+.ant-row.ant-form-item > .ant-col.ant-form-item-label > label {
+  height: auto;
+}
+.ant-form-item-control-input-content .ant-picker {
+  padding: 0 7px;
+}
+
+.ant-btn {
+  height: 24px;
+  padding: 0px 7px;
+  font-size: 14px;
+  border-radius: 2px;
+}
+
+.ant-select-single.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  padding: 0 7px;
+  height: 24px;
+}
+
+.ant-card > .ant-card-body {
+  padding: 12px;
+}
+
+.ant-form-item {
+  margin-bottom: 0.3rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.5rem !important;
+}
+
+.ant-select-single.ant-select:not(.ant-select-customize-input) .ant-select-selector::after, .ant-select-single.ant-select:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-item, .ant-select-single.ant-select-sm:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-placeholder {
+    line-height: 22px;
+}
+
+.ant-table.ant-table-small .ant-table-title, .ant-table.ant-table-small .ant-table-footer, .ant-table.ant-table-small .ant-table-thead > tr > th, .ant-table.ant-table-small .ant-table-tbody > tr > td, .ant-table.ant-table-small tfoot > tr > th, .ant-table.ant-table-small tfoot > tr > td {
+  padding: 3px 3px;
+}
+
+.ant-picker-date-panel .ant-picker-content tr > *:first-child {
+  color: red;
+}
+
+.ant-picker-date-panel .ant-picker-content tr > *:last-child {
+  color: blue;
+}
+
+.ant-input-number-input-wrap .ant-input-number-input,
+input[type="number"] { // fix InputNumber 
+  text-align: right;
+}
+
+tr th.ant-table-cell {
+  text-align: center;
+}
+
+.ant-form-item-label > label,
+tr th.ant-table-cell,
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn,
+label.ant-checkbox-wrapper {
+  font-weight: bold;
+  color: #14468C;
+}
+
+.ant-table-tbody .hightlight-row-selected .ant-table-cell {
+  background: #ececd5 !important;
+  font-weight: 500;
+}
+
+tr th.ant-table-cell {
+  background: #1C66B9 !important;
+  color: #FFFFFF;
+}

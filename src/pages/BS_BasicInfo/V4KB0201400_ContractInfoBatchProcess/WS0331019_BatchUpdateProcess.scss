@@ -1,0 +1,20 @@
+.batch-update-process .ant-table tr.ant-table-row td.ant-table-cell input.ant-input-number-input,
+.batch-update-process .ant-table tr.ant-table-row td.ant-table-cell input.ant-input-borderless {
+    text-align: right;
+}
+
+div.ant-input-number-readonly .ant-input-number-input-wrap input.ant-input-number-input{
+    padding: 0 3px;
+}
+
+div.ant-input-number-handler-wrap{
+    display: none;
+}
+
+div.cssSpace div.ant-space-item {
+    margin: 0 !important;
+}
+
+div.cssSpaceLeft div.ant-space-item {
+    margin-bottom: -5px;
+}

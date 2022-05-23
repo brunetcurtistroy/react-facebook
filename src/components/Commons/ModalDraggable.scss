@@ -1,0 +1,57 @@
+div.ant-modal-header {
+    padding: 0
+}
+.top{
+    position: absolute ;
+    width: 100%;
+    top: 0;
+    height: 15px;
+    cursor: move;
+    z-index: 1;
+}
+.bottom {
+    position: absolute ;
+    width: 100%;
+    bottom: 0;
+    height: 15px;
+    cursor: move;
+    z-index: 1;
+}
+.left {
+    position: absolute ;
+    height: 100%;
+    left: 0;
+    width: 15px;
+    cursor: move;
+    z-index: 1;
+}
+.right {
+    position: absolute ;
+    height: 100%;
+    right: 0;
+    width: 15px;
+    cursor: move;
+    z-index: 1;
+}
+
+.ant-card-head {
+    cursor: move;
+    width: 100%;
+    position: relative;
+}
+  
+.modal-resize-dragg .ant-modal-content{
+    position: absolute !important;
+}
+  
+.modal-resizable {
+    background-color: #FFF;
+}
+  
+.modal-resize-dragg .ant-modal-body{
+    display: inline-block;
+}
+
+.period-time-inquiry .ant-card.ant-card-bordered{
+    box-shadow: none;
+}

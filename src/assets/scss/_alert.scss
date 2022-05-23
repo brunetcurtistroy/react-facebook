@@ -1,0 +1,46 @@
+//
+// Base styles
+//
+
+.alert {
+  &.alert-icon {
+    // padding: 0;
+    overflow: hidden;
+    display: flex;
+    // border: 0;
+
+    .alert-icon {
+      padding: 1rem 1.25rem;
+      font-size: 1.25rem;
+      display: inline-block;
+      line-height: 1;
+      background-color: rgba(#fff, .1);
+      margin: -1rem 0 -1rem -1rem;
+      float: left;
+    }
+  }
+}
+
+#toastContainer {
+  position: fixed;
+  right: $main-padding;
+  bottom: $main-padding;
+  width: $toast-width;
+  max-width: 100%;
+  z-index: 9;
+  margin-bottom: -$alert-margin-bottom;
+  overflow: hidden;
+
+  > div {
+    animation: slide-up .75s;
+    animation-iteration-count: 1;
+    &.hiding {
+      transition: transform .3s ease;
+      transform: translateX(110%);
+    }
+  }
+}
+
+.alert-dismissible {
+  padding-right: $close-font-size + $alert-padding-x;
+}

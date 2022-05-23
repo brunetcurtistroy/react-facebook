@@ -1,0 +1,15 @@
+.select-custom .ant-select-selector {
+    height: 30px !important;
+     .ant-select-selection-item {
+        line-height: 26px !important;
+    }
+} 
+ 
+.ant-form-item-control-input {
+    min-height: 24px !important;
+}
+
+
+.custom-input-number input {
+    text-align: right;
+}

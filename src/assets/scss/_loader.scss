@@ -1,0 +1,36 @@
+.spinner-colorful {
+    border-top-color: $danger;
+    border-bottom-color: $warning;
+    border-left-color: $info;
+    border-right-color: $success;
+}
+
+.spinner-opposite {
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.spinner-ridge {
+    border-style: ridge;
+    border-width: 10px;
+}
+
+.spinner-double {
+    border-style: double;
+    border-width: 14px;
+}
+
+.spinner-dashed {
+    border-style: dashed;
+    border-width: 2px;
+}
+
+.spinner-plus {
+    border-style: dashed;
+    border-width: 20px;
+}
+
+.spinner-dart {
+    @extend .spinner-plus;
+    border-radius: 0;
+}
